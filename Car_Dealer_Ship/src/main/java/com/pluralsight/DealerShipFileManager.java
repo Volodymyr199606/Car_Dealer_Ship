@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class DealerShipFileManager {
     private static final String FILE_PATH = "Car_Dealer_Ship/Files/inventory.scv";
 
-    public Dealership getDealership() {
+    public Dealership getDealerShip() {
         File file = new File(FILE_PATH);
         try {
             Scanner scanner = new Scanner(file);

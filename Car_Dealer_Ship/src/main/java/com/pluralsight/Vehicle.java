@@ -21,5 +21,16 @@ public class Vehicle {
         this.price = price;
     }
 
-    // getters and setters for each field
+      @Override
+      public String toString() {
+          return "Vehicle{" +
+                  "year=" + year +
+                  ", mileage=" + mileage +
+                  ", make='" + make + '\'' +
+                  ", model='" + model + '\'' +
+                  ", color='" + color + '\'' +
+                  ", type='" + type + '\'' +
+                  ", price=" + price +
+                  '}';
+      }
 }

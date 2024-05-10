@@ -10,5 +10,16 @@ public class Vehicle {
     private int mileage;
     private double price;
 
+    public Vehicle(int id, int year, String make, String model, String type, String color, int mileage, double price) {
+        this.id = id;
+        this.year = year;
+        this.make = make;
+        this.model = model;
+        this.type = type;
+        this.color = color;
+        this.mileage = mileage;
+        this.price = price;
+    }
+
     // getters and setters for each field
 }

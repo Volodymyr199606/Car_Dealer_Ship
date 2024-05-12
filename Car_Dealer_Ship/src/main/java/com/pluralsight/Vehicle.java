@@ -33,4 +33,39 @@ public class Vehicle {
                   ", price=" + price +
                   '}';
       }
+
+    public double getPrice() {
+        return this.price;
+    }
+
+    public String getMake() {
+        return this.make;
+    }
+
+    public String getModel() {
+        return this.model;
+    }
+
+    public int getYear() {
+        return this.year;
+    }
+
+    public String getColor() {
+        return this.color;
+    }
+
+    public int getMileage() {
+        return this.mileage;
+    }
+
+    public String getType() {
+        return this.type;
+    }
+
+    public int getId() {
+        return this.id;
+    }
+
+    // other methods...
 }
+

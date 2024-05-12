@@ -1,4 +1,8 @@
-package com.pluralsight;
+package com.pluralsight.ui;
+
+import com.pluralsight.Services.DealerShipFileManager;
+import com.pluralsight.Model.Dealership;
+import com.pluralsight.Model.Vehicle;
 
 import java.util.List;
 import java.util.Scanner;

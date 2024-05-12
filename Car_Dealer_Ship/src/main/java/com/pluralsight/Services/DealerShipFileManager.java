@@ -1,4 +1,7 @@
-package com.pluralsight;
+package com.pluralsight.Services;
+import com.pluralsight.Model.Dealership;
+import com.pluralsight.Model.Vehicle;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;

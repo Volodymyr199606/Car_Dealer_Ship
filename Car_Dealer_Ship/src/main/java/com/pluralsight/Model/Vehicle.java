@@ -1,4 +1,4 @@
-package com.pluralsight;
+package com.pluralsight.Model;
 
 public class Vehicle {
     private int id;
@@ -23,15 +23,15 @@ public class Vehicle {
 
       @Override
       public String toString() {
-          return "Vehicle{" +
-                  "year=" + year +
-                  ", mileage=" + mileage +
-                  ", make='" + make + '\'' +
-                  ", model='" + model + '\'' +
-                  ", color='" + color + '\'' +
-                  ", type='" + type + '\'' +
-                  ", price=" + price +
-                  '}';
+          return "Vehicle " +
+                  "Year = " + year +
+                  ", Mileage = " + mileage +
+                  ", Make = '" + make + '\'' +
+                  ", Model = '" + model + '\'' +
+                  ", Color = '" + color + '\'' +
+                  ", Type = '" + type + '\'' +
+                  ", Price = " + price +
+                  '.';
       }
 
     public double getPrice() {
@@ -66,6 +66,6 @@ public class Vehicle {
         return this.id;
     }
 
-    // other methods...
+
 }
 

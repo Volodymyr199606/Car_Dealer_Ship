@@ -25,3 +25,17 @@ This is a Car Dealership Management System developed in Java. The system allows 
 - Remove a vehicle: This feature allows you to remove a vehicle from the inventory. You just need to enter the id of the vehicle, and the system will remove that vehicle from the inventory.
 
 ![Features](Images/Features.PNG)
+
+The system runs until you choose to quit by entering 99. All changes made to the inventory are saved to the "Files/inventory.csv" file.
+
+## How to Run
+
+- The main class runs the application and starts the UserInterface class. The UserInterface class is structured to use a switch statement to handle the user's choices. The system will continue to run until the user enters 99, at which point it will save any changes made to the inventory and exit.
+
+Here is an example of running process.
+
+![Running process](images/Running%20process.PNG)
+
+And here is exiting process of program.
+
+![Exiting program](images/Exiting%20program.PNG)

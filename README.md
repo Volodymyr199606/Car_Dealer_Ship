@@ -32,10 +32,12 @@ The system runs until you choose to quit by entering 99. All changes made to the
 
 - The main class runs the application and starts the UserInterface class. The UserInterface class is structured to use a switch statement to handle the user's choices. The system will continue to run until the user enters 99, at which point it will save any changes made to the inventory and exit.
 
-Here is an example of running process.
+Here is an example of running process.🔥
 
 ![Running](Images/Running.PNG)
 
-And here is exiting process of program.
+And here is exiting process of program.🔥
 
 ![Exiting](Images/Exiting.PNG)
+
+# 🚀 This project is a great example of a simple but effective inventory management system, demonstrating the use of basic Java programming concepts and file handling in Java.

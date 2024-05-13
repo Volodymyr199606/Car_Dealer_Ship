@@ -10,7 +10,7 @@ import java.io.IOException;
 
 
 public class DealerShipFileManager {
-    private static final String FILE_PATH = "Files/inventory.scv";
+    private static final String FILE_PATH = "C:\\Pluralsight\\Car_Dealer_Ship\\Car_Dealer_Ship\\Files/inventory.scv";
 
     public Dealership getDealerShip() {
         File file = new File(FILE_PATH);

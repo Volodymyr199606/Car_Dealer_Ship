@@ -40,4 +40,4 @@ And here is exiting process of program.🔥
 
 ![Exiting](Images/Exiting.PNG)
 
-# 🚀 This project is a great example of a simple but effective inventory management system, demonstrating the use of basic Java programming concepts and file handling in Java.
+## 🚀 This project is a great example of a simple but effective inventory management system, demonstrating the use of basic Java programming concepts and file handling in Java.

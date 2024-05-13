@@ -24,4 +24,4 @@ This is a Car Dealership Management System developed in Java. The system allows 
 
 - Remove a vehicle: This feature allows you to remove a vehicle from the inventory. You just need to enter the id of the vehicle, and the system will remove that vehicle from the inventory.
 
-![fetures](images/Fetures.PNG)
+

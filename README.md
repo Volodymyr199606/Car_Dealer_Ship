@@ -23,3 +23,5 @@ This is a Car Dealership Management System developed in Java. The system allows 
 - Add a vehicle: This feature allows you to add a new vehicle to the inventory. You need to enter the details of the vehicle like id, year, make, model, type, color, mileage, and price.
 
 - Remove a vehicle: This feature allows you to remove a vehicle from the inventory. You just need to enter the id of the vehicle, and the system will remove that vehicle from the inventory.
+
+![features](images/Fetures.PNG)

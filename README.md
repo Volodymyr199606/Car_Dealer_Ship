@@ -34,8 +34,8 @@ The system runs until you choose to quit by entering 99. All changes made to the
 
 Here is an example of running process.
 
-![Running process](images/Running%20process.PNG)
+![Running process](images/Running process.PNG)
 
 And here is exiting process of program.
 
-![Exiting program](images/Exiting%20program.PNG)
+![Exiting program](images/Exiting program.PNG)

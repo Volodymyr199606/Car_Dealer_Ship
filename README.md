@@ -1,4 +1,4 @@
-# 🚀 Car_Dealer_Ship
+# 🚘 Car_Dealer_Ship
 
 ## Car Dealership Management System
 
@@ -40,4 +40,6 @@ And here is exiting process of program.🔥
 
 ![Exiting](Images/Exiting.PNG)
 
-## 🚀 This project is a great example of a simple but effective inventory management system, demonstrating the use of basic Java programming concepts and file handling in Java.
+#### 🚀 This project is a great example of a simple but effective inventory management system, demonstrating the use of basic Java programming concepts and file handling in Java.
+
+### All in all, this Car Dealership Management System is a practical and efficient tool for managing a car dealership. Its combination of powerful features and simple operation make it a valuable asset for any dealership.

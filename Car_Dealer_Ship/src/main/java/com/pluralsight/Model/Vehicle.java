@@ -21,18 +21,34 @@ public class Vehicle {
         this.price = price;
     }
 
-      @Override
-      public String toString() {
-          return "Vehicle " +
-                  "Year = " + year +
-                  ", Mileage = " + mileage +
-                  ", Make = '" + make + '\'' +
-                  ", Model = '" + model + '\'' +
-                  ", Color = '" + color + '\'' +
-                  ", Type = '" + type + '\'' +
-                  ", Price = " + price +
-                  '.';
-      }
+    @Override
+    public String toString() {
+        String colorCode;
+        switch (type.toLowerCase()) {
+            case "suv":
+                colorCode = "\u001B[31m"; // Red
+                break;
+            case "sedan":
+                colorCode = "\u001B[32m"; // Green
+                break;
+            case "truck":
+                colorCode = "\u001B[34m"; // Blue
+                break;
+            default:
+                colorCode = "\u001B[0m"; // Reset
+                break;
+        }
+
+        return colorCode + "Vehicle " +
+                "Year = " + year +
+                ", Mileage = " + mileage +
+                ", Make = '" + make + '\'' +
+                ", Model = '" + model + '\'' +
+                ", Color = '" + color + '\'' +
+                ", Type = '" + type + '\'' +
+                ", Price = " + price +
+                '.' + "\u001B[0m"; // Reset color
+    }
 
     public double getPrice() {
         return this.price;

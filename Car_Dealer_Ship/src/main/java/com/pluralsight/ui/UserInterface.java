@@ -23,17 +23,16 @@ public class UserInterface {
 
     private void displayMenu() {
         System.out.println();
-        System.out.println("[1] - Find vehicles within a price range.");
-        System.out.println("[2] - Find vehicles by make/model.");
-        System.out.println("[3] - Find vehicles by year range.");
-        System.out.println("[4] - Find vehicles by color.");
-        System.out.println("[5] - Find vehicles by mileage range.");
-        System.out.println("[6] - Find vehicles by type (car, truck, SUV, van).");
-        System.out.println("[7] - List All vehicles.");
-        System.out.println("[8] - Add a vehicle.");
-        System.out.println("[9] - Remove a vehicle.");
-        System.out.println("[99] - Quit.");
-
+        System.out.println("\u001B[31m[1]\u001B[31m - Find vehicles within a price range.");
+        System.out.println("\u001B[32m[2]\u001B[32m - Find vehicles by make/model.");
+        System.out.println("\u001B[33m[3]\u001B[33m - Find vehicles by year range.");
+        System.out.println("\u001B[34m[4]\u001B[34m - Find vehicles by color.");
+        System.out.println("\u001B[35m[5]\u001B[35m - Find vehicles by mileage range.");
+        System.out.println("\u001B[36m[6]\u001B[36m - Find vehicles by type (car, truck, SUV, van).");
+        System.out.println("\u001B[37m[7]\u001B[37m - List All vehicles.");
+        System.out.println("\u001B[31m[8]\u001B[31m - Add a vehicle.");
+        System.out.println("\u001B[32m[9]\u001B[32m - Remove a vehicle.");
+        System.out.println("\u001B[33m[99]\u001B[33m - Quit.");
     }
 
     private void displayVehicles(List<Vehicle> vehicles) {
